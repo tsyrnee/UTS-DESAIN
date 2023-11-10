@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap')
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: beige;
+    min-height: 2000px;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: aliceblue;
+    box-shadow: 2px 2px 50px grey;
+    font-family: arial;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.navbar ul .nama{
+    font-size: 30px;
+    color: rgb(226, 166, 93);
+    letter-spacing: 7px;
+    margin-right: auto;
+}
+
+.navbar ul li a{
+    font-size: 15px;
+    color: rgb(226, 166, 93);
+    text-decoration: none;
+}
+/* AKHIR NAVBAR*/
+
+/* KONTEN */
+/* JUMBOTRON */
+.jumbotron {
+    text-align: center;
+    margin-top: 20px;
+    font-family: arial;
+}
+
+.jumbotron h2{
+    letter-spacing: 2px;
+}
+/* AKHIR JUMBOTRON */
+
+/* ABOUT */
+.about{
+    font-family: arial;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+}
+/* AKHIR ABOUT */
+
+/* GALERY */
+.galery{
+    text-align: center;
+    font-family: arial;
+    margin-top: 20px;
+    padding: 15px;
+}
+/* AKHIR GALERY */
+
+/* CONTACT */
+.contact{
+    font-family: arial;
+    margin: 20px;
+    padding: 15px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.contact input, .contact textarea{
+    display: block;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 15px;
+    border: 2px solid bisque;
+    border-radius: 7px;
+    font-size: 17px;
+    font-family: arial;
+
+}
+
+.contact textarea{
+    height: 40px;
+}
+
+.contact .tombol{
+    background-color:  aliceblue;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 2px solid  aliceblue;
+
+}
+
+.kontak{
+    display: flex;
+    align-items: center;
+}
+
+.kontak p{
+    margin: 10px;
+}
+
+.social-icon a{
+    text-decoration: none;
+}
+
+/* AKHIR CONTACT */
+/* AKHIR KONTEN */
